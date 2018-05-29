@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavBarrComponent } from './components/nav-barr/nav-barr.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarrComponent
   ],
   imports: [
     BrowserModule,
